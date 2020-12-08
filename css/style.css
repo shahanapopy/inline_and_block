@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+
+	
+}
+body{
+	background-color: #000;
+	width: 100%;
+}
+
+/*title css*/
+.title{
+	height: 50px;
+	width: 100%;
+	padding: 8px;
+	background: pink;
+}
+.title h2{
+	display: inline-block;
+	float: left;
+	margin-top: 8px;
+}
+#menu {
+	list-style-type: none;
+	text-align: right;
+	
+}
+#menu a{
+	text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 20px 30px;
+    text-transform: uppercase;
+}
+#menu a:hover{
+	color: red;
+	font-size: 25px;
+}
+#menu li{
+	display: inline;
+	/*margin-right: 50px;
+	float: right;
+	margin-top: 8px;*/
+}
+
+
+
+
+/*WRAPPER CSS*/
+.wrapper{
+	width:1150px;
+	min-height: 500px;
+	margin:0 auto;
+}
+.wrapper h1{
+	text-align: center;
+	color: blue;
+	padding: 20px;
+}
+.graphics{
+	width: 380px;
+	min-height: 100px;
+	float: left;
+	color: #ef0b94;
+}
+.graphics ul{
+	list-style-type: circle;
+	margin-bottom: 8px;
+}
+.wordpress{
+	width: 380px;
+	min-height: 100px;
+	float: left;
+	color: #e65009;
+}
+.wordpress ul{
+	list-style-type: square;
+	margin-bottom: 8px;
+}
+.web_design{
+	width: 380px;
+	min-height: 100px;
+	float: left;
+	color: tomato;
+}
+.web_design ul{
+	list-style-type: decimal;
+	margin-bottom: 8px;
+
+}
+.UI_design{
+	width: 380px;
+	min-height: 100px;
+	float: left;
+	color: tomato;
+	margin-top: 20px;
+}
+.UI_design ul{
+	list-style-type: lower-roman;
+}
+.APP{
+	width: 380px;
+	min-height: 100px;
+	float: left;
+	color: green;
+	margin-top: 20px;
+}
+.APP ul{
+	list-style-type: lower-alpha;
+}
+.Marketing{
+	width: 380px;
+	min-height: 100px;
+	float: left;
+	color: red;
+	margin-top: 20px;
+}
+.Marketing ul{
+	list-style-type: disc;
+}
+h3{
+	background-color: #9ae0c8;
+    border-radius: 8%;
+    cursor:pointer;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+/*table css*/
+table th,td{
+	color: blue;
+	border: 2px solid white;
+	width:1000px;
+
+}
+table{
+	border-collapse: collapse;	
+}
+.table{
+	margin:10px 200px;
+	text-align: center;
+}
+caption{
+	color:#fff;
+	font-size: 30px;
+	font-weight: 600px;
+}
+/*figure css*/
+figure{
+	padding: 20px 0px;
+	text-align: center;
+}
+figure figcaption{
+	color: #fff;
+
+}
+
+/*audio css*/
+.myaudio{
+	width:500px;
+	height:80px;
+	border-radius:10px;
+	display: block;	
+}
+ .audio p{
+	color: #fff;
+	font-size: 20px;
+}
+
+/*video css*/
+.video{
+	width: 500px;
+	height: 300px;
+}
+.myvideo p{
+	margin-top: 30px;
+	color: #fff;
+	font-size: 20px;
+}
+
+
+/*Address css*/
+.address{
+	color: #fff;
+	float: right;
+}
